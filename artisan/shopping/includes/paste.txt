@@ -1,0 +1,4 @@
+<?php $sql=mysqli_query($con,"select name  from pages limit 6");
+      while($row=mysqli_fetch_array($sql))
+      {
+          ?>

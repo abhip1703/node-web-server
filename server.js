@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 //   res.render('maintanance.hbs')
 // });
 
-app.use(express.static(__dirname + '/minimax'));
+app.use(express.static(__dirname + '/artisan'));
 app.get('/', (req, res) => {
   res.render('index.html', {
     pageTitle: 'Home page'
