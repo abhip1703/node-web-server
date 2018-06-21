@@ -39,12 +39,12 @@ hbs.registerHelper('screamIt', (text) => {
   return text.toUpperCase();
 });
 
-app.get('/', (request, response) => {
-  response.render('home.hbs', {
-    pageTitle: 'Home page',
-    welcomeMessage: 'Hello there!'
-  })
-});
+// app.get('/', (request, response) => {
+//   response.render('home.hbs', {
+//     pageTitle: 'Home page',
+//     welcomeMessage: 'Hello there!'
+//   })
+// });
 
 app.get('/about', (request, response) => {
   response.render('about.hbs', {
